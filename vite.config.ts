@@ -21,7 +21,7 @@ export default defineConfig({
   },
   server: {
     host: '0.0.0.0',  // Exposes the server externally
-    port: 10000,      // Keeps the port 10000
+    port: 3000,      // changed to 3000
     proxy: {
       '/api/proxy/xhome': {
         target: 'https://uks.core.gssv-play-prodxhome.xboxlive.com',
